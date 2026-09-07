@@ -2,17 +2,18 @@
 
 * 1 - El Rol del Arquitecto de Software
 
-	El video introduce el rol del arquitecto de software a través del caso real de los accidentes de los aviones **Boeing 737 Max** en 2018 y 2019, donde cientos de personas murieron debido a que un sistema automatizado (el MCAS) falló al confiar en un solo sensor sin redundancia ni posibilidad real de intervención humana. Este suceso no fue un bug de programación, sino una **decisión de arquitectura** en la que alguien priorizó la rapidez y los costos sobre la seguridad y el criterio técnico.
+  El video introduce el rol del arquitecto de software a través del caso real de los accidentes de los aviones **Boeing 737 Max** en 2018 y 2019, donde cientos de personas murieron debido a que un sistema automatizado (el MCAS) falló al confiar en un solo sensor sin redundancia ni posibilidad real de intervención humana. Este suceso no fue un bug de programación, sino una **decisión de arquitectura** en la que alguien priorizó la rapidez y los costos sobre la seguridad y el criterio técnico.
 
-	A partir de este ejemplo, se explica que las decisiones de un arquitecto impactan directamente en la **escalabilidad, seguridad, privacidad, acceso e incluso en la ética** de cualquier sistema, sin importar el tipo de empresa. Por ello, el rol va más allá de realizar diagramas; se centra en  **diseñar sistemas** , lo que implica abstraer la complejidad, cuestionar supuestos, negociar con los interesados ( *stakeholders* ) y entender que cada línea de código tiene consecuencias reales. El objetivo del curso es construir un **marco de decisiones** con impacto inmediato que ayude a identificar los aspectos más importantes de un proyecto a largo plazo, haciendo énfasis en cómo se comunican dichas decisiones.
+  A partir de este ejemplo, se explica que las decisiones de un arquitecto impactan directamente en la **escalabilidad, seguridad, privacidad, acceso e incluso en la ética** de cualquier sistema, sin importar el tipo de empresa. Por ello, el rol va más allá de realizar diagramas; se centra en  **diseñar sistemas** , lo que implica abstraer la complejidad, cuestionar supuestos, negociar con los interesados ( *stakeholders* ) y entender que cada línea de código tiene consecuencias reales. El objetivo del curso es construir un **marco de decisiones** con impacto inmediato que ayude a identificar los aspectos más importantes de un proyecto a largo plazo, haciendo énfasis en cómo se comunican dichas decisiones.
 
-	Para solucionar el problema de que los equipos suelan olvidar la estructura y el propósito del código con el paso de los años, se propone una práctica inicial muy sencilla: agregar un archivo llamado **`architector.md`** (con el nombre escrito en mayúsculas a propósito para llamar la atención del equipo) en la raíz del repositorio. Este documento debe funcionar como un folleto de presentación y no como un diccionario exhaustivo, incluyendo el propósito del código, un pequeño mapa de los módulos para facilitar intervenciones rápidas sin tener que leer todo el código, conceptos clave, restricciones y posibles riesgos conocidos.
+  Para solucionar el problema de que los equipos suelan olvidar la estructura y el propósito del código con el paso de los años, se propone una práctica inicial muy sencilla: agregar un archivo llamado **`architector.md`** (con el nombre escrito en mayúsculas a propósito para llamar la atención del equipo) en la raíz del repositorio. Este documento debe funcionar como un folleto de presentación y no como un diccionario exhaustivo, incluyendo el propósito del código, un pequeño mapa de los módulos para facilitar intervenciones rápidas sin tener que leer todo el código, conceptos clave, restricciones y posibles riesgos conocidos.
 
-	Finalmente, el instructor del curso se presenta como  **Nicolás Borquez** , quien programa desde los 9 años (iniciando con Logo), ha fundado tres empresas de tecnología en Latinoamérica y acumula ocho años de experiencia como arquitecto de software para startups y grandes corporaciones, invitando a los estudiantes a dejar la "adicción al código" para obtener una perspectiva más amplia del desarrollo de software.
+  Finalmente, el instructor del curso se presenta como  **Nicolás Borquez** , quien programa desde los 9 años (iniciando con Logo), ha fundado tres empresas de tecnología en Latinoamérica y acumula ocho años de experiencia como arquitecto de software para startups y grandes corporaciones, invitando a los estudiantes a dejar la "adicción al código" para obtener una perspectiva más amplia del desarrollo de software.
+
+
 
 
 * 2 - Arquitectura de Software en la Era de la AI
-
 
 En esta clase se analiza el impacto, las oportunidades y los desafíos que representa la inteligencia artificial en el ámbito de la arquitectura de software, estructurando el tema en varios puntos clave:
 
@@ -54,9 +55,8 @@ La diferencia fundamental de responsabilidades radica en que:
 Al finalizar, se plantea un ejercicio de reflexión para identificar en qué perfil de Rogers nos ubicamos respecto a las tecnologías emergentes que hemos presenciado y qué futuro le depara a la inteligencia artificial en el mercado.
 
 
+
 * 3 - Limites de la Arquitectura de Software
-
-
 
 Esta clase profundiza en los alcances de la disciplina, abordando qué problemas resuelve, cuáles quedan fuera de su control y cómo un arquitecto debe priorizar su día a día.
 
@@ -91,9 +91,8 @@ Para gestionar la carga de trabajo y el enfoque técnico, se propone el uso de l
 Como cierre, se nos invita a diseñar una **lista de chequeo** para saber identificar con precisión cuándo un problema es verdaderamente Importante y Urgente, sugiriendo como lectura complementaria el libro *"The Checklist Manifesto"*.
 
 
+
 * 4 - Responsabilidades del Arquitecto de Software
-
-
 
 En este cuarto video se detallan las **cuatro responsabilidades fundamentales** de un arquitecto de software: **entender, diseñar, convencer e intervenir**. Cada una de estas dimensiones define el impacto real que tiene el rol dentro de cualquier tipo de organización.
 
@@ -137,8 +136,6 @@ Al final de la clase, se propone como ejercicio elegir un **problema importante 
 
 * 5 - Arquitectura y Metodologias de Desarrollo de Software
 
-
-
 Este quinto video se centra en la relación entre la **arquitectura de software y las metodologías de desarrollo**, los subproductos que se generan en el proceso, las malas prácticas más comunes y las herramientas técnicas para asegurar la calidad del diseño.
 
 ### **1. Arquitectura y Metodologías de Desarrollo**
@@ -180,7 +177,6 @@ Como ejercicio práctico, el instructor propone analizar qué modificaciones o f
 
 
 * 6 - Expectativas y Comunicacion en la Arquitectura de Software
-
 
 ¡Qué bueno que ahora contamos con el contenido correcto de esta sesión! En esta clase se aborda a fondo cómo gestionar las expectativas y cómo estructurar una comunicación efectiva en la arquitectura de software.
 
@@ -231,16 +227,14 @@ El instructor propone reescribir el problema técnico que elegiste en las clases
 2. **La técnica de los 6 sombreros para pensar:** Para evaluar el escenario desde múltiples puntos de vista.
 
 
-**02 Frugalidad**
 
+
+**02 Frugalidad**
 
 **03 Estructura del Software**
 
-
 **04 Diseño del Software**
 
-
 **05 Proyecto**
-
 
 **06 Epilogo**
