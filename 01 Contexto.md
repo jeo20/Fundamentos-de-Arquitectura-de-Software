@@ -49,6 +49,8 @@ La diferencia fundamental de responsabilidades radica en que:
 * La **IA** se enfoca principalmente en la generación de código y, en ocasiones, del software.
 * El **arquitecto de software** se preocupa por la estructura general, las propiedades del sistema, sus relaciones, los canales de comunicación, la estrategia global y, en última instancia, también del código.
 
+EJERCICIO: entre visionario y pragmatico
+
 ---
 
 # 3 - Limites de la Arquitectura de Software
@@ -84,6 +86,10 @@ Para gestionar la carga de trabajo y el enfoque técnico, se propone el uso de l
 * **Cuadrante 4 (Ni Importante ni Urgente):** Accesorios o experimentos interesantes de explorar, pero sin un impacto real garantizado.
 
 Como cierre, se nos invita a diseñar una **lista de chequeo** para saber identificar con precisión cuándo un problema es verdaderamente Importante y Urgente, sugiriendo como lectura complementaria el libro *"The Checklist Manifesto"*.
+
+EJERCICIO:
+
+C1 Importante y Urgente: Respaldo de sistema RM COBOL en servidor sparc de 1985 que si falla no tiene alternativa de restaurar en otro servidor
 
 ---
 
@@ -124,6 +130,8 @@ Un gran diseño no sirve de nada si el arquitecto no logra convencer a la organi
 El rol requiere intervención directa a través de la programación. Aunque no es necesario ser el mejor desarrollador de la compañía, es indispensable saber programar para entender cómo el equipo ejecuta los diseños y para solucionar los problemas que estos puedan causar en producción. Sin esta capacidad técnica, el arquitecto simplemente **no tiene control de su propia arquitectura**.
 
 Al final de la clase, se propone como ejercicio elegir un **problema importante pero no urgente** (concepto del Cuadrante 2 de la matriz de la clase pasada) para resolverlo, diseñando una solución y codificándola a lo largo del curso.
+
+EJERCICIO: Desarrollo de nuevo modulo de compras para subsanar el sistema actual que pierde informacion
 
 ---
 
