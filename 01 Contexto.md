@@ -216,12 +216,18 @@ Después de los documentos, los diagramas representan el medio de comunicación 
 * **Estándares de Procesos de Negocio:** Permiten modelar formalmente las actividades, tareas, paralelizaciones y sistematizaciones necesarias para cumplir un objetivo de negocio.
 * **UML:** Útil para modelar estructuras, estados, secuencias y despliegues físicos de software.
 
-
 **Reto Práctico del Video 6**
 
 El instructor propone reescribir el problema técnico que elegiste en las clases anteriores separando de forma estricta el **espacio del problema** del **espacio de la solución**. Para lograrlo, recomienda utilizar herramientas como:
 
 1. **La técnica de los 5 porqués:** Para indagar de manera iterativa hasta hallar la causa raíz de la situación.
 2. **La técnica de los 6 sombreros para pensar:** Para evaluar el escenario desde múltiples puntos de vista.
+
+EJERCICIO:
+
+**Espacio del problema**; El sistema actual desarrollado en RM/COBOL presenta limitaciones de trazabilidad, conservación de información y auditoría de las operaciones del proceso de compras, dificultando el seguimiento completo de las operaciones y el control posterior de las mismas.
+
+**Espacio de la solucion:** Desarrollar un nuevo sistema de gestión de compras utilizando Django y PostgreSQL, reemplazando progresivamente el sistema RM/COBOL, con un proceso simplificado, conservación de información histórica, trazabilidad completa y mecanismos de auditoría.
+
 
 ---
